@@ -1,0 +1,91 @@
+/*font-family: "Jim Nightshade", cursive;**/
+
+body{
+    background-image: url(images/fondoglicines.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: "Montenegrin Gothic One", serif;
+}
+
+.navbar-negra-transparente {
+    background-color: rgba(0, 0, 0, 0.768); 
+}
+
+.navbar-logo {
+    height: 40px;      
+    width: auto; 
+    border-radius: 50%;
+}
+
+.hero{
+    background-image: url(images/kny1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: aliceblue;
+}
+
+h1{
+    font-family: "Jim Nightshade", cursive;
+}
+
+footer{
+    color: dimgray;
+}
+
+h2{
+    padding: 10px;
+    color: aliceblue;
+}
+
+.cartas{
+    padding: 5px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.card{
+    width: 200px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    border-color: #dc3545;
+    box-shadow: 0px 8px 15px rgba(229, 51, 68, 0.3);
+}
+
+.lista-arcos {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-arcos a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 6px; 
+}
+
+.lista-arcos li a:hover{
+    color: rebeccapurple;
+    background: rgba(20, 20, 20, 0.65);
+}
+
+.lista-arcos li a img {
+    width: 100px;
+    object-fit: cover;
+}
+
+h3{
+    color: black;
+}
+
+#arcos{
+    background-color: darkred;
+    max-height: fit-content;
+}
+
