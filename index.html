@@ -50,14 +50,15 @@
     </div>
 <!--contenedor-->
     <div class="container-fluid cartas">
-        
+        <div class="row mb-4">
+            <div class="col-12 col-md-10 offset-md-1">
+                <h2>Personajes principales.</h2>
+            </div>
+        </div>
         <div class="row">
-            <h2 class="offset-md-1">Personajes principales.</h2>
             <!--cards-->
-            <div class="col-md-5 offset-md-1">
-                
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    
+            <div class="col-12 col-lg-5 offset-lg-1">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
                     <div class="col">
                         
                         <div class="card">
@@ -107,7 +108,7 @@
             </div>
         <!--fin cards-->
         <!--arco-->
-            <div id="arcos" class="col-md-3 offset-md-1 my-3">
+            <div id="arcos" class="col-12 col-lg-3 offset-lg-1 my-3">
                 <h3>Arcos Animados</h3>
                 <ul class="lista-arcos">
                     <li><a href="#" data-bs-toggle="modal"  data-bs-target="#examplemodal">
@@ -157,7 +158,134 @@
       </div>
     </div>
 <!--fin modal-->
+    <div id="creadores" class="row align-items-center py-2">
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+            <img id="escritora" src="images/escritora.png" alt="escritora" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 d-none d-sm-block">
+            <img id="director" src="images/director.webp" alt="director" class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+            <img src="images/primeraedision.webp" alt="portada" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+            <h4>Escritora y creadora. Koyoharu Gotōge</h4>
+            <p>Es la autora y mangaka que escribió e ilustró la historia original.  Comenzó a publicar la historia en febrero de 2016 en la revista Weekly Shōnen Jump de la editorial Shūeisha, finalizándola en mayo de 2020 con 23 volúmenes recopilatorios.  Firma sus obras con un seudónimo y utiliza la ilustración de un caimán con gafas como su avatar público para mantener su anonimato e identidad en privado. </p>
+            <h4 class="mt-4">Director de Animación Haruo Sotozaky</h4>
+            <p> Haruo Sotozaki es el director principal y diseñador de animación de la franquicia Demon Slayer: Kimetsu no Yaiba, producida por el estudio ufotable. Ha dirigido la serie de televisión original (2019), la película récord de taquilla Demon Slayer: La película: Tren Infinito (2020) y la trilogía cinematográfica Demon Slayer: El Castillo Infinito (2025–en curso), además de las temporadas de TV y películas compiladas de los arcos de la Aldea de los Herreros y el Entrenamiento de los Pilares.</p>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <h2>Banda Sonora y Oppenings</h2>
+            <div class="col-12 col-lg-6">
+                <video controls poster="images/primeraedision.webp" class="w-100 rounded" src="videos/oppening.mp4" type="video/mp4" title="Oppening temporada 1"></video>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
+                                being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting
+                                happening here in terms of content, but just filling up the space to make it look, at least at first
+                                glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    
 
     <footer class="text-end">
         <p>Creada por karen.</p>

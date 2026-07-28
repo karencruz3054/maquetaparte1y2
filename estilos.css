@@ -1,10 +1,14 @@
 /*font-family: "Jim Nightshade", cursive;**/
 
-body{
+html body{
+    background-color: #121212;
     background-image: url(images/fondoglicines.jpg);
     background-size: cover;
     background-attachment: fixed;
+    color: #ffffff;
     min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: "Montenegrin Gothic One", serif;
 }
 
@@ -33,6 +37,8 @@ h1{
 
 footer{
     color: dimgray;
+    background-color: rgba(0, 0, 0, 0.768);
+    margin-top: 10px;
 }
 
 h2{
@@ -41,13 +47,14 @@ h2{
 }
 
 .cartas{
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     object-fit: cover;
 }
 
 .card{
-    width: 200px;
+    width: 250px;
+    
 }
 
 .card:hover{
@@ -89,3 +96,12 @@ h3{
     max-height: fit-content;
 }
 
+#director{
+    width: 200px;
+    padding: 10px;
+}
+
+
+#creadores{
+    background-color: rgba(0, 0, 0, 0.768);
+}
