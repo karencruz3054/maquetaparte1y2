@@ -105,3 +105,18 @@ h3{
 #creadores{
     background-color: rgba(0, 0, 0, 0.768);
 }
+
+.accordion-item{
+    background-color:#a32a2a ;
+    border-color: #121212;
+}
+
+.accordion-button{
+    background-color: rebeccapurple;
+}
+
+.containerform{
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
